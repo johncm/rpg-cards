@@ -79,6 +79,17 @@ page[size="25x35"] {
     height: 1.5in;
 }
 
+/* Label card size */
+.card-size-40x60 {
+    width:4.0in;
+    min-width:4.0in;
+    height:6.0in;
+}
+.card-size-40x60 .card-back-icon {
+    width: 1.5in;
+    height: 1.5in;
+}
+
 /* Landscape big card */
 .card-size-75x50 {
     width:7.5in;
