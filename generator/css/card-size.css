@@ -35,7 +35,14 @@ page[size="A4"] {
 /* Chrome has problems with page sizes given in metric units. Make the paper area slightly smaller to work around this. */
 page[size="A6"] {
     width:  105mm; /* full: 105.0mm */
-    height: 147mm; /* full: 147.0mm */
+    height: 147mm; /* full: 148.0mm */
+}
+
+/* A7 paper area */
+/* Chrome has problems with page sizes given in metric units. Make the paper area slightly smaller to work around this. */
+page[size="A7"] {
+    width:  74mm; /* full: 74.0mm */
+    height: 104mm; /* full: 105.0mm */
 }
 
 /* US letter area */
@@ -47,6 +54,11 @@ page[size="Letter"] {
 page[size="25x35"] {
     width: 2.5in;
     height: 3.5in;
+}
+
+page[size="40x60"] {
+    width: 4.0in;
+    height: 6.0in;
 }
 
 /* Default card size */
@@ -87,14 +99,36 @@ page[size="25x35"] {
 }
 
 /* Label card size */
+.card-size-29x41 {
+    width:2.9in;
+    min-width:2.9in;
+    height:4.1in;
+}
+.card-size-29x41 .card-back-icon {
+    width: 1in;
+    height: 1in;
+}
+
+/* Label card size */
+.card-size-41x58 {
+    width:4.1in;
+    min-width:4.1in;
+    height:5.8in;
+}
+.card-size-41x58 .card-back-icon {
+    width: 2in;
+    height: 2in;
+}
+
+/* Label card size */
 .card-size-40x60 {
     width:4.0in;
     min-width:4.0in;
     height:6.0in;
 }
 .card-size-40x60 .card-back-icon {
-    width: 1.5in;
-    height: 1.5in;
+    width: 2in;
+    height: 2in;
 }
 
 /* Landscape big card */
