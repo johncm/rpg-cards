@@ -31,6 +31,13 @@ page[size="A4"] {
     height: 296mm; /* full: 297.0mm */
 }
 
+/* A5 paper area */
+/* Chrome has problems with page sizes given in metric units. Make the paper area slightly smaller to work around this. */
+page[size="A5"] {
+    width:  148mm; /* full: 148.0mm */
+    height: 209mm; /* full: 210.0mm */
+}
+
 /* A6 paper area */
 /* Chrome has problems with page sizes given in metric units. Make the paper area slightly smaller to work around this. */
 page[size="A6"] {
@@ -64,11 +71,6 @@ page[size="40x60"] {
 page[size="40x675"] {
     width: 4.0in;
     height: 6.75in;
-}
-
-page[size="60x90"] {
-    width: 6.0in;
-    height: 9.0in;
 }
 
 page[size="30x50"] {
