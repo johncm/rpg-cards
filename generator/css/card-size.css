@@ -61,6 +61,21 @@ page[size="40x60"] {
     height: 6.0in;
 }
 
+page[size="40x675"] {
+    width: 4.0in;
+    height: 6.75in;
+}
+
+page[size="60x90"] {
+    width: 6.0in;
+    height: 9.0in;
+}
+
+page[size="30x50"] {
+    width: 3.0in;
+    height: 5.0in;
+}
+
 /* Default card size */
 .card {
     width:2.5in;
@@ -139,6 +154,17 @@ page[size="40x60"] {
 .card-size-75x50 .card-back-icon {
     width: 2in;
     height: 2in;
+}
+
+/* Label card size */
+.card-size-275x45 {
+    width:2.75in;
+    min-width:2.75in;
+    height:4.5in;
+}
+.card-size-275x45 .card-back-icon {
+    width: 1.5in;
+    height: 1.5in;
 }
 
 /* Card sizes that fill out the entire sheet of paper (minimal margins) */
